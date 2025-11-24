@@ -48,9 +48,7 @@ export default function Modal() {
       
       <div className="main">
         <h1>User Details Modal</h1>
-        <button onClick={() => setIsOpen(true)} disabled={isOpen}>
-          Open Form
-        </button>
+        <button onClick={() => setIsOpen(true)} disabled={isOpen}>Open Form</button>
       </div>
 
       
