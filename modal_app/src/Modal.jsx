@@ -53,7 +53,7 @@ export default function Modal() {
 
       
       {isOpen && (
-        <div className="modal-overlay" onClick={() => setIsOpen(false)}>
+        <div className=".modal" onClick={() => setIsOpen(false)}>
           
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <h2>Fill Details</h2>

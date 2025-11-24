@@ -19,7 +19,7 @@ button:disabled {
 }
 
 
-.modal-overlay {
+.modal{
   position: fixed;
   top: 0;
   left: 0;
