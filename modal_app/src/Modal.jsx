@@ -45,16 +45,15 @@ export default function Modal() {
 
   return (
     <div>
-      
       <div className="main">
         <h1>User Details Modal</h1>
-        <button onClick={() => setIsOpen(true)} disabled={isOpen}>Open Form</button>
+        <button onClick={() => setIsOpen(true)} disabled={isOpen}>
+          Open Form
+        </button>
       </div>
 
-      
       {isOpen && (
-        <div className=".modal" onClick={() => setIsOpen(false)}>
-          
+        <div className="modal" onClick={() => setIsOpen(false)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <h2>Fill Details</h2>
 
